@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from string import ascii_uppercase
 
-#!!!!!! НАДО СКОПИРОВАТЬ ЗАНОВО СВОЙ ВАРИАНТ ФАЙЛА И СДЕЛАТЬ РАЗДЕЛЕНИЕ СТРОК
+
 file = "links.csv"
 data = pd.read_csv(file)
 S_from = data['from']
